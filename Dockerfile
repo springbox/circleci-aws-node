@@ -3,7 +3,7 @@ FROM node:8-alpine
 # Standard useful tools
 RUN \
   apt-get update && \
-  apt-get install -y jq zip build-essential curl vim && \
+  apt-get install -y jq zip build-essential curl && \
   apt-get clean
 
 # Python
